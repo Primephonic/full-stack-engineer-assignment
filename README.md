@@ -26,7 +26,7 @@ Create a frontend which displays the information below, and automatically refres
 {
     "user_id": "1",                     // can be either user1, user2 or user3
     "track_id": "track1",               // can be either track1, track2 or track3
-    "label": "Label 1",                 // can be either label1, label2 or label3
+    "label": "label1",                 // can be either label1, label2 or label3
     "stream_started_on": 1546421951,    // represents when the track began streaming (Unix time)
     "seconds_streamed": 1290            // represents total numbers of seconds streamed
 }
@@ -62,21 +62,21 @@ This endpoint should enable clients to query the data with some additional filte
   {
     "user_id": "1",
     "track_id": "track1",
-    "label": "Label 1",
+    "label": "label1",
     "stream_started_on": 1546422100,
     "seconds_streamed": 1290
   },
   {
     "user_id": "2",
     "track_id": "track2",
-    "label": "Label 3",
+    "label": "label3",
     "stream_started_on": 1546422110,
     "seconds_streamed": 987
   },
   {
     "user_id": "1",
     "track_id": "track2",
-    "label": "Label 1",
+    "label": "label1",
     "stream_started_on": 1546422130,
     "seconds_streamed": 1500
   }
