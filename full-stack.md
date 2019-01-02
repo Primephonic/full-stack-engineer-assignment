@@ -36,7 +36,7 @@ Create a frontend which displays the information below, and automatically refres
 
 **Description**
 
-This endpoint should enable clients to query the data with some additional filtering params
+This endpoint should enable clients to query the data with some additional filtering params.
 
 
 **Parameters**
