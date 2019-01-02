@@ -9,13 +9,13 @@ For this, the client apps (Android, iOS & Web) monitor the tracks being played a
 ## Task
 This challenge consists of 2 parts:
 ### 1. Backend
-Create a back-end system which simulates usage data generated from the apps. This system must:
+Create a back-end system (using `Node.js) which simulates usage data generated from the apps. This system must:
 - Every `10 seconds`, generate a random number of events (between 1 and 5 events)
 - Store these events as-is, with no additional logic such as grouping, etc (can be stored in-memory)
 - Expose a REST API which allows clients to query this data
 
 ### 2. Frontend
-Create a frontend which displays the information below, and automatically refreshes it every `15 seconds`:
+Create a frontend (using `Vue.js`) which displays the information below, and automatically refreshes the data at least every `15 seconds`:
 - Total seconds streamed
 - Total seconds streamed per label
 - Most popular track (popular = most streamed)
