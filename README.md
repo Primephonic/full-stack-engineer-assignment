@@ -40,15 +40,17 @@ This endpoint should enable clients to query the data with some additional filte
 
 
 **Parameters**
-Name | Type | Description
---- | --- | ---
-`from` | `int` (seconds - Unix time) | From when to retrieve data (E.g. disregard all events which are previous than this date)
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `from` | `int` (seconds - Unix time) | From when to retrieve data (E.g. disregard all events which are previous than this date) |
 
 **Response**
-Code | Body | Condition
---- | --- | ---
-200 | `see sample` | If the `from` param is in the past | 
-400 | `empty` | If the `from` param is in the future | 
+
+| Code | Body | Condition |
+| --- | --- | --- |
+| `200` | `see sample` | If the `from` param is in the past |
+| `400` | `empty` | If the `from` param is in the future |
 
 **Sample Request**
 
